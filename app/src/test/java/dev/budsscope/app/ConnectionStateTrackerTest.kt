@@ -84,7 +84,7 @@ class ConnectionStateTrackerTest {
 
     @Test
     fun `formatLastSeen formats ranges accurately`() {
-        val now = 1_000_000L
+        val now = 1_000_000_000_000L
 
         // 30 seconds ago
         assertEquals("Just now", ConnectionStateTracker.formatLastSeen(now - 30_000L, now))
