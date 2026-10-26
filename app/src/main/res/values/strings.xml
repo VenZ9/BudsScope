@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">BudsScope</string>
+    <string name="tagline">Universal TWS Earbud Companion</string>
+    <string name="media_listener_service_name">BudsScope Media Listener</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_now_playing">Now Playing</string>
+    <string name="nav_battery_history">History</string>
+    <string name="nav_radar">Radar</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_scanning">Scanning…</string>
+    <string name="earbud_left">Left</string>
+    <string name="earbud_right">Right</string>
+    <string name="charging_case">Case</string>
+    <string name="battery_combined">Single / Combined</string>
+    <string name="battery_charging">Charging</string>
+    <string name="battery_unavailable">Unavailable</string>
+    <string name="battery_stale">Awaiting Refresh</string>
+    <string name="battery_unsupported">Unsupported</string>
+    <string name="no_device_connected">No TWS Earbuds Connected</string>
+    <string name="no_device_subtitle">Connect your earbuds via Android Bluetooth settings or scan for paired audio devices.</string>
+    <string name="action_open_bluetooth">Open Bluetooth Settings</string>
+    <string name="action_refresh">Refresh Readings</string>
+    <string name="action_scan_nearby">Scan for Nearby Devices</string>
+
+    <!-- Profiles -->
+    <string name="profile_a2dp">A2DP Audio</string>
+    <string name="profile_headset">HFP / Headset</string>
+    <string name="profile_gatt_battery">GATT Battery Service</string>
+
+    <!-- Now Playing -->
+    <string name="now_playing_title">Now Playing</string>
+    <string name="no_active_media">No Active Media Session</string>
+    <string name="media_permission_required">Notification Access Required</string>
+    <string name="media_permission_desc">BudsScope reads active track title, artist, album art, and playback state directly from Android media sessions. BudsScope runs 100% offline and never transmits or logs your media data.</string>
+    <string name="grant_media_permission">Grant Notification Access</string>
+    <string name="now_playing_empty_desc">Start playing music or podcasts in Spotify, YouTube Music, or any media player to view live playback visuals.</string>
+    <string name="unknown_track">Unknown Track</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+
+    <!-- Battery History -->
+    <string name="history_title">Battery Intelligence</string>
+    <string name="history_drain_rate">Observed Drain Rate</string>
+    <string name="history_drain_unit">%/hour</string>
+    <string name="history_estimated_time">Estimated Listening Time</string>
+    <string name="history_estimate_basis">Based on %1$.1f%%/hr drain over %2$d recorded sample(s)</string>
+    <string name="history_insufficient_data">Collecting data points to calculate drain trend…</string>
+    <string name="history_health_notice_title">Hardware Battery Health Note</string>
+    <string name="history_health_notice_body">Standard Android Bluetooth profiles do not provide factory battery cell wear or long-term cycle health metrics. BudsScope computes observed drain trends from real historical timestamped readings without fabricating health percentages.</string>
+    <string name="history_clear_btn">Clear History</string>
+
+    <!-- Radar / Reconnect -->
+    <string name="radar_title">Device Radar</string>
+    <string name="paired_devices">Paired Audio Devices</string>
+    <string name="nearby_devices">Nearby Devices</string>
+    <string name="last_seen">Last connected: %1$s</string>
+    <string name="never_connected">Never connected in BudsScope</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_notifications_category">Alerts &amp; Notifications</string>
+    <string name="pref_low_battery_alert">Low Battery Alert</string>
+    <string name="pref_low_battery_desc">Notify when earbud battery drops below threshold</string>
+    <string name="pref_low_battery_threshold">Low Battery Threshold (%1$d%%)</string>
+    <string name="pref_disconnect_alert">Disconnection Alert</string>
+    <string name="pref_disconnect_desc">Notify immediately if earbuds unexpectedly disconnect</string>
+    <string name="pref_persistent_service">Background Monitoring Service</string>
+    <string name="pref_persistent_service_desc">Keep background listener active for reliable battery snapshots and instant disconnect alerts</string>
+    <string name="pref_visuals_category">Visuals &amp; Performance</string>
+    <string name="pref_animations">Fluid Sound Wave Animations</string>
+    <string name="pref_animations_desc">Disable to conserve battery on low-power devices</string>
+    <string name="pref_privacy_category">Privacy &amp; Local Storage</string>
+    <string name="pref_clear_all_data">Erase All Local Data</string>
+    <string name="pref_clear_all_data_confirm">Erase Data</string>
+    <string name="pref_diagnostics_category">Diagnostics</string>
+    <string name="pref_view_diagnostics">System &amp; Permission Diagnostics</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Diagnostics</string>
+    <string name="diag_bt_status">Bluetooth Adapter</string>
+    <string name="diag_perm_connect">BLUETOOTH_CONNECT Permission</string>
+    <string name="diag_perm_scan">BLUETOOTH_SCAN Permission</string>
+    <string name="diag_perm_notif">Notification Listener Service</string>
+    <string name="diag_perm_post_notif">POST_NOTIFICATIONS Permission</string>
+    <string name="status_granted">Granted</string>
+    <string name="status_denied">Denied</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Disabled</string>
+
+    <!-- Widgets -->
+    <string name="widget_compact_name">BudsScope Compact Battery</string>
+    <string name="widget_compact_desc">Glanceable earbud battery gauge for your home screen</string>
+    <string name="widget_expanded_name">BudsScope Dual Battery</string>
+    <string name="widget_expanded_desc">Detailed Left, Right, and Case battery monitor</string>
+    <string name="widget_no_device">Disconnected</string>
+
+    <!-- Notification Channels -->
+    <string name="notif_channel_battery">Battery Alerts</string>
+    <string name="notif_channel_battery_desc">Alerts when earbud battery level drops below your threshold</string>
+    <string name="notif_channel_connection">Connection Alerts</string>
+    <string name="notif_channel_connection_desc">Notifications when TWS earbuds connect or disconnect</string>
+    <string name="notif_channel_service">BudsScope Active Monitor</string>
+    <string name="notif_channel_service_desc">Ongoing notification for real-time Bluetooth connection monitoring</string>
+    <string name="notif_low_battery_title">Low Earbud Battery (%1$d%%)</string>
+    <string name="notif_low_battery_content">Your %1$s is running low on power (%2$d%% remaining).</string>
+    <string name="notif_disconnected_title">Earbuds Disconnected</string>
+    <string name="notif_disconnected_content">%1$s disconnected from this device.</string>
+</resources>

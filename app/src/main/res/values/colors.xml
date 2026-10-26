@@ -1,0 +1,12 @@
+<resources>
+    <color name="bg_dark">#080A0E</color>
+    <color name="surface_graphite">#12151B</color>
+    <color name="surface_card">#181C24</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_blue">#3B82F6</color>
+    <color name="text_primary">#F0F4F8</color>
+    <color name="text_secondary">#8E9BAE</color>
+    <color name="battery_good">#00E5FF</color>
+    <color name="battery_warn">#F59E0B</color>
+    <color name="battery_critical">#EF4444</color>
+</resources>
